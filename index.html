@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 2</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google font link for icons -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <!-- Link swiperjs css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+
+<body>
+  <div class="header_section">
+    <h1>Welcome to our section</h1>
+    <p>Explore the section more</p>
+  </div>
+  <div class="container swiper mySwiper">
+    <div class="cards_container swiper-wrapper">
+      <div class="card swiper-slide">
+        <a href="#" class="card_link"></a>
+        <img src="images/developer.jpg" alt="developer" class="card_image">
+        <p class="badge developer">Developer</p>
+        <h2 class="card_title">Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+        <button class="card_button material-symbols-outlined">
+          arrow_forward
+        </button>
+      </div>
+
+      <div class="card swiper-slide">
+        <a href="#" class="card_link"></a>
+        <img src="images/designer.jpg" alt="developer" class="card_image">
+        <p class="badge designer">Designer</p>
+        <h2 class="card_title">Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+        <button class="card_button material-symbols-outlined">
+          arrow_forward
+        </button>
+      </div>
+
+      <div class="card swiper-slide">
+        <a href="#" class="card_link"></a>
+        <img src="images/marketer.jpg" alt="developer" class="card_image">
+        <p class="badge marketer">Marketer</p>
+        <h2 class="card_title">Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+        <button class="card_button material-symbols-outlined">
+          arrow_forward
+        </button>
+      </div>
+
+      <div class="card swiper-slide">
+        <a href="#" class="card_link"></a>
+        <img src="images/editor.jpg" alt="developer" class="card_image">
+        <p class="badge editor">Editor</p>
+        <h2 class="card_title">Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+        <button class="card_button material-symbols-outlined">
+          arrow_forward
+        </button>
+      </div>
+
+      <div class="card swiper-slide">
+        <a href="#" class="card_link"></a>
+        <img src="images/gamer.jpg" alt="developer" class="card_image">
+        <p class="badge gamer">Gamer</p>
+        <h2 class="card_title">Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+        <button class="card_button material-symbols-outlined">
+          arrow_forward
+        </button>
+      </div>
+
+
+    </div>
+    
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+  <!-- Acodian  -->
+  <div class="accordion-body">
+    <div class="accordion">
+      <h1>Frequently Asked Questions</h1>
+      <hr>
+      <div class="container">
+        <div class="label">What is HTML</div>
+        <div class="content">Hypertext Markup Language (HTML) is a computer language that makes up most web pages and online applications. A hypertext is a text that is used to reference other pieces of text, while a markup language is a series of markings that tells web servers the style and structure of a document. HTML is very simple to learn and use.</div>
+      </div>
+      <hr>
+      <div class="container">
+        <div class="label">What is CSS?</div>
+        <div class="content">CSS stands for Cascading Style Sheets. It is the language for describing the presentation of Web pages, including colours, layout, and fonts, thus making our web pages presentable to the users. CSS is designed to make style sheets for the web. It is independent of HTML and can be used with any XML-based markup language. CSS is popularly called the design language of the web.</div>
+      </div>
+      <hr>
+      <div class="container">
+        <div class="label">What is JavaScript?</div>
+        <div class="content">JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third of the web trio.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- The modal -->
+<div class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Modal Header</h2>
+    <p>Modal content Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, culpa velit quo vel cupiditate quas!</p>
+  </div>
+</div>
+
+<!-- The button that opens the modal -->
+<button id="open-modal">Open Modal</button>
+  <!-- Link swiperjs script -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Link Custom script -->
+  <script src="index.js"></script>
+</body>
+
+</html>

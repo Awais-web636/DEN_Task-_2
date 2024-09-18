@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: grey;
+  
+}
+
+.header_section {
+  background-color: #000;
+  color: white;
+  height: 200px;
+  margin-bottom: 30px;
+  padding-block: 40px;
+}
+
+.header_section h1 {
+  text-align: center;
+}
+
+.header_section p {
+  text-align: center;
+}
+
+
+.card {
+  user-select: none;
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  width: 300px;
+  list-style-type: none;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.05);
+  border: 2px solid transparent;
+  cursor: pointer;
+  /* margin-bottom: 10px; */
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  border-color: #5372F0;
+}
+
+.card_link {
+  display: block;
+  text-decoration: none;
+}
+
+.card_image {
+width: 100%;
+aspect-ratio: 16/9;
+object-fit: cover;
+border-radius: 10px;
+}
+
+.badge,.developer {
+  color: blue;
+  padding: 8px 16px;
+  font-weight: 500;
+  margin: 16px 0px 18px;
+  background: #DDE4FF;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.designer {
+  color: red;
+  background-color: #F7DFF5;
+}
+
+.marketer {
+  color: purple;
+  background-color: #F7DFF5;
+}
+
+.editor {
+  color: green;
+  background-color: #F7DFF5;
+}
+
+.gamer {
+  color: brown;
+  background-color: #F7DFF5;
+}
+
+.card_title {
+  font-size: 1.19rem;
+  color: #000;
+  font-weight: 600;
+}
+
+.card_button {
+  width: 35px;
+  height: 35px;
+  color: blue;
+  border-radius: 50%;
+  margin: 30px 0px 5px;
+  background: none;
+  cursor: pointer;
+  border: 2px solid blue;
+  transform: rotate(-45deg);
+  transition: 0.4s ease;
+}
+
+.card:hover .card_button {
+  color: #fff;
+  background-color: #5372F0;
+}
+
+.swiper {
+  width: 85%;
+  height: 100%;
+}
+
+.swiper-slide {
+width: 33.3333%;
+}
+
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination {
+  margin-top: 80px;
+}
+
+/* Acodian */
+
+body {
+  background-color: #0A2344;
+  font-family: 'rubik', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.accordion {
+  width: 800px;
+  margin: 90px auto;
+  color: black;
+  background-color: white;
+  padding: 45px 45px;
+}
+
+.accordion .container {
+  padding: 18px;
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion .container:last-child {
+  border-bottom: none;
+}
+
+.accordion .label {
+  cursor: pointer;
+  padding: 18px;
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion .label::before {
+  content: '+';
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.accordion .label.active::before {
+  content: '-';
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.accordion .content {
+  padding: 18px;
+  display: none;
+}
+
+.accordion .content.active {
+  display: block;
+}
+
+/* Monal */
+/* The modal */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
